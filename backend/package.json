@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "ImmoCalcPlattform",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ImmoCalc-Plattform"
+  },
+  "keywords": [
+    "Immobilien",
+    "Cashflow",
+    "Renditeliegenschaften",
+    "Calculation",
+    "Eigenheim"
+  ],
+  "author": "Luxson Kanagarajah",
+  "license": "ISC",
+  "dependencies": {
+    "@clerk/express": "^2.0.6",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.1",
+    "svix": "^1.89.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
