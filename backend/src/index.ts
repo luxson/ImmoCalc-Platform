@@ -4,9 +4,9 @@ import app from "./app";
 
 // Database connection and server setup
 console.log('Starting server...');
-const port = process.env.PORT || 4000;
 
 configDotenv({path: "./.env"}); // Load environment variables from .env file
+const port = process.env.PORT || 4000;
 
 connectToDatabase()
     .then(() => {
